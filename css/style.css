@@ -1,0 +1,46 @@
+/*Global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 10px;
+}
+
+
+/*Main container div*/
+#container {
+    width: 1056px;
+    margin: auto;
+    height: 90%;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/*Buttons*/
+div#button {
+    text-align: center;
+}
+
+button {
+    padding: 5px 7px;
+    margin: 10px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    padding: 4px 6px;
+    border: 1px solid grey;
+}
+
+/*inner-grids*/
+.inner-grid {
+    float: left;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "Odin's Project challenge",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobslegend61/Etch-A-Sketch.git"
+  },
+  "keywords": [
+    "Etch-A-Sketch"
+  ],
+  "author": "Alabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bobslegend61/Etch-A-Sketch/issues"
+  },
+  "homepage": "https://github.com/Bobslegend61/Etch-A-Sketch#readme"
+}
