@@ -7,8 +7,6 @@ $(document).ready(() => {
     let total = w * docH;
     let i = 1 
     
-    console.log(docH);
-    
 //    Display boxex
     for(i; i <= total; i++){
         $("#container").append("<div class='inner-grid'></div>");
@@ -32,7 +30,14 @@ $(document).ready(() => {
 //    *********Button Events********
 //    clear
     $("#clear").click(function(){
-        $("#container").html("");
+        for(i; i <= total; i++){
+            $("#container").append("<div class='inner-grid'></div>");
+        }
+        $(".inner-grid").css({
+            width: h+"px",
+            height: h+"px",
+            backgroundColor: "black"
+        })
     })
     
 //    change size
